@@ -1,11 +1,9 @@
 package newbie;
 //두 수의 합
 public class Q3 {
-  public static void main(String[] args) {
+  public int solution(int num1, int num2) {
     int answer = -1;
-    int num1 = 44;
-    int num2 = 33;
     answer = num1 + num2;
-    System.out.println(answer);
+    return answer;
   }
 }
